@@ -8,18 +8,18 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="1" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -41,7 +41,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -121,7 +121,6 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
@@ -197,7 +196,7 @@
 <wire x1="6.985" y1="19.05" x2="6.985" y2="7.62" width="0.254" layer="22" style="shortdash"/>
 <text x="44.7" y="0.696" size="1.016" layer="22" rot="MR90">5V</text>
 <text x="43.815" y="2.54" size="1.27" layer="21">RESET</text>
-<text x="-19.05" y="59.69" size="1.778" layer="48" rot="R270">Creative Commons Recoñecemento 4.0 Internacional (CC BY 4.0)</text>
+<text x="-19.05" y="59.69" size="1.778" layer="48" rot="R270">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</text>
 <dimension x1="0" y1="0" x2="0" y2="50.155" x3="-13.0175" y3="25.0775" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="50.155" x2="50.1525" y2="50.155" x3="25.07625" y3="67.31" textsize="1.778" layer="47" precision="1"/>
 <dimension x1="0" y1="0" x2="0" y2="3.625" x3="-2.54" y3="1.8125" textsize="1.778" layer="47" precision="1"/>
@@ -222,8 +221,7 @@
 <text x="1.27" y="25.75" size="1.15" layer="21" font="vector" rot="R270">http://escornabot.com</text>
 <text x="49.125" y="40.1" size="1.4224" layer="22" font="vector" rot="MR270">http://escornabot.com</text>
 <hole x="46.5625" y="46.3875" drill="3"/>
-<text x="20.315" y="1.6225" size="1.15" layer="21" font="vector">CC BY 4.0</text>
-<text x="53.34" y="-8.89" size="1.778" layer="51" rot="R90">Creative Commons Recoñecemento 4.0 Internacional (CC BY 4.0)</text>
+<text x="18.9775" y="1.01" size="1.15" layer="21" font="vector">CC BY-SA 4.0</text>
 <wire x1="3.7625" y1="46.3625" x2="46.4875" y2="46.3625" width="0" layer="47"/>
 <dimension x1="0" y1="50.155" x2="46.4875" y2="46.3625" x3="23.24375" y3="55.88" textsize="1.778" layer="47" dtype="horizontal"/>
 <text x="32.3015" y="47.135" size="1.016" layer="22" rot="MR180">KEY</text>

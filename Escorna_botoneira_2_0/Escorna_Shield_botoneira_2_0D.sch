@@ -12845,7 +12845,7 @@ W = angled&lt;p&gt;
 <wire x1="68.58" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="86.36" x2="66.04" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <text x="223.52" y="60.96" size="1.778" layer="97">90º rotate</text>
-<text x="170.688" y="29.21" size="2.1844" layer="97">Creative Commons Recoñecemento 4.0 Internacional (CC BY 4.0)</text>
+<text x="164.592" y="28.448" size="2.1844" layer="97">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
