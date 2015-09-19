@@ -14683,7 +14683,7 @@ Source: RS Component / Phycomp</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="IC1" library="uln-udn" deviceset="ULN2803A" device="&quot;" value="ULN2803"/>
-<part name="Z1" library="buzzer" deviceset="F/CM12P" device=""/>
+<part name="Z1" library="buzzer" deviceset="F/CM12P" device="" value="CFG12"/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="025-025X050" value="100nF"/>
@@ -14891,7 +14891,7 @@ Rx = THT
 Sx. = 6 mm
 Sx.1 = 12mm
 </text>
-<text x="254" y="7.62" size="2.54" layer="97">005</text>
+<text x="254" y="7.62" size="2.54" layer="97">006</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
