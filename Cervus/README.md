@@ -4,7 +4,7 @@
 * Author: [XDeSIG][SITE]
 * License: [Creative Commons BY-SA][CCBYSA]
 
-![Render EscornaShield Keypad][RENDER]
+![Render Cervus 2.0][RENDER]
 
 [CCBYSA]: http://creativecommons.org/licenses/by-sa/4.0/
 [SITE]: https://sites.google.com/site/xdesig/
