@@ -13,23 +13,23 @@
   - Holes for holders continue in the same position (PCB extended 5.1mm backwards).
   - Full compatible one side, with an operative Escornabot (excepting the expansion connector).
 
-## Tactile switches with LED
+# Tactile switches with LED
 
-LED assignments:                 suggested color
-//-------------------------------------------------
-// keypadleds
-#define USE_KEYPAD_LEDS true
-#define KEYPAD_LED_PIN_UP A0    // Blue
-#define KEYPAD_LED_PIN_RIGHT A3 // Gren
-#define KEYPAD_LED_PIN_DOWN A2  // Yelow
-#define KEYPAD_LED_PIN_LEFT A1  // Reed
-#define KEYPAD_LED_PIN_GO 13    // Wite
+LED assignments:    -->        suggested color
+-------------------------------------------------
+keypadleds
+define USE_KEYPAD_LEDS true
+define KEYPAD_LED_PIN_UP A0    --> Blue
+define KEYPAD_LED_PIN_RIGHT A3  --> Gren
+define KEYPAD_LED_PIN_DOWN A2  --> Yelow
+define KEYPAD_LED_PIN_LEFT A1  --> Reed
+define KEYPAD_LED_PIN_GO 13    --> Wite
 
 
 The LEDs can be disabled by cutting a small wire-jumper, you can use these outputs for other things. Reconnect with a small welding.
 
 
-## expansion connector
+expansion connector
 
 2.54mm double strip
 
