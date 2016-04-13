@@ -13,23 +13,25 @@
   - Holes for holders continue in the same position (PCB extended 5.1mm backwards).
   - Full compatible one side, with an operative Escornabot (excepting the expansion connector).
 
-# Tactile switches with LED
+## Tactile switches with LED
 
-LED assignments:    --        suggested color   (https://en.wikipedia.org/wiki/Navigation_light)
--------------------------------------------------
-keypadleds
-define USE_KEYPAD_LEDS true
-define KEYPAD_LED_PIN_UP A0    -- Blue
-define KEYPAD_LED_PIN_RIGHT A3  -- Gren
-define KEYPAD_LED_PIN_DOWN A2  -- Yelow
-define KEYPAD_LED_PIN_LEFT A1  -- Reed
-define KEYPAD_LED_PIN_GO 13    -- Wite
+LED assignments:    --        [suggested color][wiki]
+
+
+| KEY / signal| Color |
+|-------------|-------|
+| UP  / A0    | Blue  |
+| RIGHT / A3  | Gren  |
+| DOWN / A2   | Yelow |
+| LEFT / A1   | Reed  |
+| GO / D13    | WiteA |
+
 
 
 The LEDs can be disabled by cutting a small wire-jumper, you can use these outputs for other things. Reconnect with a small welding.
 
 
-expansion connector
+## Expansion connector
 
 2.54mm double strip
 
@@ -53,6 +55,7 @@ expansion connector
 
 
 <!-- links -->
+[wiki]: https://en.wikipedia.org/wiki/Navigation_light
 [CCBYSA]: http://creativecommons.org/licenses/by-sa/4.0/
 [TWI01]: https://twitter.com/xdesig
 [RENDER]: Escorna_CPU_2_10_34T.jpg
