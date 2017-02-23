@@ -21,8 +21,12 @@ licensed under [Creative Commons BY-SA](LICENSE).
 
 ## To buy boards
 
-Developers don't produce boards to sell. Under providers directory there are
-instructions to order yourself.
+Developers don't produce boards to sell. Under [_providers_](providers) 
+directory there are instructions to order yourself.
+
+Are you a board provider? Please, send us your buyer's guide! :)
+
+
 
 [CPU01]: EscornaCPU
 [ARD01]: ArduinoShield
