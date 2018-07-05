@@ -21391,18 +21391,15 @@ Or external</text>
 </net>
 <net name="CH" class="0">
 <segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<label x="134.62" y="45.72" size="1.778" layer="95"/>
+<pinref part="R13.1" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="48.26" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="U2" gate="G$1" pin="CH_PD"/>
 <wire x1="172.72" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <label x="172.72" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO0"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="137.16" y="45.72" size="1.778" layer="95"/>
-<pinref part="R13.1" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="48.26" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<junction x="134.62" y="45.72"/>
 </segment>
 </net>
 </nets>
