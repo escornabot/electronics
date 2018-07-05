@@ -19665,7 +19665,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="SV1" library="con-lstb" deviceset="MA08-2" device=""/>
 <part name="LED1.1" library="led" deviceset="LED" device="CHIPLED_0603" value="Blue"/>
 <part name="LED2.1" library="led" deviceset="LED" device="CHIPLED_0603" value="Reed"/>
-<part name="LED3.1" library="led" deviceset="LED" device="CHIPLED_0603" value="Orange"/>
+<part name="LED3.1" library="led" deviceset="LED" device="CHIPLED_0603" value="Orang"/>
 <part name="LED4.1" library="led" deviceset="LED" device="CHIPLED_0603" value="Green"/>
 <part name="JP2" library="SparkFunEagle-6-6-07" deviceset="JP1E" device=""/>
 <part name="U1" library="con-lstb" deviceset="MA04-1" device=""/>
