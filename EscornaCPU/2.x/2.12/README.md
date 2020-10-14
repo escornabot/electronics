@@ -16,7 +16,9 @@
 ## License
 
 Every content in this repo, otherwise specified under subdirectories, is
-licensed under [Creative Commons BY-SA](LICENSE).
+licensed under [Creative Commons BY-SA](LICENSE) Docu. and [CERN Open Hardware Licence -W- V2][OHL-W-V2]. Hardware
+(by [XDeSIG][XDE01])
+
 
 ## To buy boards
 
