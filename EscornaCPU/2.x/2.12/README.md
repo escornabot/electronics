@@ -7,7 +7,7 @@
 - More info - [Caracteristicas\_CPU2\_12.pdf (in Galician)][NOT01]
 
 - [Escorna\_CPU\_2\_12\_Gerber.zip (Gerber files)][GER01]
-- [Escorna\_CPU\_2\_12.brd (Eable Board)][BOA01]
+- [Escorna\_CPU\_2\_12.brd (Eagle Board)][BOA01]
 - [Escorna\_CPU\_2\_12.sch (Eagle Schematics)][SCH01]
 - [Escorna\_CPU\_2\_12\_ESQ.pdf (PDF Schematichs)][SCH02]
 - [Escorna\_CPU\_2\_12\_measures.pdf (Board measures)][MEA01]
