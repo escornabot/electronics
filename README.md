@@ -3,7 +3,7 @@
 
 ## Catalog
 
-- [Escorna CPU][CPU01] (by [Xdesig][XDE01]) is a 50x100mm board to use with 
+- [Escorna CPU][CPU01] (by [Xdesig][XDE01]) is a 50x 50 mm to 50x100mm board to use with 
   Arduino Nano. It integrates keypad on board.
 - [Arduino Shield][ARD01] (by [Xdesig][XDE01]) is an Arduino Uno compatible 
   shield ready to use with the Escornabot's motors and also integrates a keypad.
