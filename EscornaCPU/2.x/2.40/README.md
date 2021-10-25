@@ -16,7 +16,7 @@ Arduino Uno, Arduino Nano compatible or ATmega minicore
 
 ## Open Hardware Certification program
 <img src="ES000025.svg" width="200" align="left">
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 ## To buy boards
 
