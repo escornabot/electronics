@@ -11,11 +11,12 @@ Arduino Uno, Arduino Nano compatible or ATmega minicore
 
 <img src="oshw_facts.png" width="210" align="left">
 
-<br> <br><br><br>
+<br><br><br><br>
 
 
 ## Open Hardware Certification program
 <img src="ES000025.svg" width="200" align="left">
+<br><br><br><br>
 
 ## To buy boards
 
