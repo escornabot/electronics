@@ -13,6 +13,10 @@ Arduino Uno, Arduino Nano compatible or ATmega minicore
 
 <br> <br><br><br>
 
+
+## Open Hardware Certification program
+<img src="ES000025.svg" width="200" align="left">
+
 ## To buy boards
 
 Developer doesn't produce boards to get money. [_provider_][provider]
