@@ -13,6 +13,7 @@ Every content in this repo, otherwise specified under subdirectories, is
 licensed under [CERN Open Hardware Licence -W- V2][OHL-W-V2].
 (by [XDeSIG][XDE01])
 
+<img src="oshw_facts.png" width="210" align="left">
 
 ## To buy boards
 
