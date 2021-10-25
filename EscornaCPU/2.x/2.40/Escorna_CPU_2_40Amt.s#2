@@ -17820,7 +17820,7 @@ or PCI express slots&lt;br&gt;</description>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="3.0"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="3.0"/>
 <part name="ESC" library="escorna" deviceset="ESCORNABOT" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
@@ -17828,7 +17828,7 @@ or PCI express slots&lt;br&gt;</description>
 <part name="X1" library="con-ptr500" deviceset="AK550/2" device="" value="1776275-2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="3.0"/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="3.0"/>
-<part name="R19.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R14.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="R15.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="R16.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="R17.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
@@ -17847,8 +17847,8 @@ or PCI express slots&lt;br&gt;</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="F1.1" library="adafruit" deviceset="PTCFUSE" device="-1206" value="ERF-RA05060Z"/>
-<part name="R14.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
+<part name="R19.1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="0204/7" value="10K"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="0204/7" value="1K"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="0204/7" value="1K"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="0204/7" value="1K"/>
@@ -17987,7 +17987,7 @@ Rx = THT
 </text>
 <text x="246.888" y="17.526" size="1.778" layer="97">XDeSIG</text>
 <text x="173.228" y="25.4" size="2.54" layer="97">PseudoSingularis (PSingularis)  by XDeSIG.</text>
-<text x="254" y="7.62" size="2.54" layer="97">0021</text>
+<text x="254" y="7.62" size="2.54" layer="97">002</text>
 <text x="221.234" y="132.334" size="2.54" layer="95">Enabling LEDs, Default on</text>
 <text x="159.766" y="77.978" size="1.778" layer="97" rot="R270">BUZZ on/off</text>
 <text x="172.72" y="121.92" size="2.54" layer="97">A0</text>
@@ -18036,7 +18036,7 @@ Rx = THT
 <instance part="H3" gate="G$1" x="2.54" y="60.96"/>
 <instance part="H4" gate="G$1" x="2.54" y="68.58"/>
 <instance part="ESC" gate="G$1" x="132.08" y="86.36"/>
-<instance part="R19" gate="G$1" x="195.58" y="162.56" rot="R180"/>
+<instance part="R14" gate="G$1" x="195.58" y="162.56" rot="R180"/>
 <instance part="R15" gate="G$1" x="208.28" y="162.56" rot="R180"/>
 <instance part="R16" gate="G$1" x="220.98" y="162.56" rot="R180"/>
 <instance part="R17" gate="G$1" x="233.68" y="162.56" rot="R180"/>
@@ -18045,7 +18045,7 @@ Rx = THT
 <instance part="X1" gate="-2" x="7.62" y="12.7"/>
 <instance part="H2" gate="G$1" x="2.54" y="53.34"/>
 <instance part="H1" gate="G$1" x="2.54" y="45.72"/>
-<instance part="R19.1" gate="G$1" x="195.58" y="170.18" rot="R180"/>
+<instance part="R14.1" gate="G$1" x="195.58" y="170.18" rot="R180"/>
 <instance part="R15.1" gate="G$1" x="208.28" y="170.18" rot="R180"/>
 <instance part="R16.1" gate="G$1" x="220.98" y="170.18" rot="R180"/>
 <instance part="R17.1" gate="G$1" x="233.68" y="170.18" rot="R180"/>
@@ -18085,8 +18085,8 @@ Rx = THT
 <attribute name="VALUE" x="21.59" y="31.75" size="1.778" layer="96"/>
 <attribute name="NAME" x="21.59" y="27.94" size="1.778" layer="95"/>
 </instance>
-<instance part="R14.1" gate="G$1" x="185.42" y="167.64" rot="R270"/>
-<instance part="R14" gate="G$1" x="177.8" y="167.64" rot="R270"/>
+<instance part="R19.1" gate="G$1" x="185.42" y="167.64" rot="R270"/>
+<instance part="R19" gate="G$1" x="177.8" y="167.64" rot="R270"/>
 <instance part="R8" gate="G$1" x="203.2" y="111.76" rot="R270"/>
 <instance part="R9" gate="G$1" x="220.98" y="111.76" rot="R270"/>
 <instance part="R10" gate="G$1" x="238.76" y="111.76" rot="R270"/>
@@ -18726,16 +18726,16 @@ Rx = THT
 <segment>
 <label x="172.72" y="162.56" size="1.778" layer="95"/>
 <wire x1="177.8" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<pinref part="R19.1" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R14.1" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="170.18" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="162.56" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
 <junction x="190.5" y="162.56"/>
 <junction x="177.8" y="162.56"/>
 <wire x1="185.42" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <junction x="185.42" y="162.56"/>
-<pinref part="R14.1" gate="G$1" pin="2"/>
+<pinref part="R19.1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="ADC7"/>
@@ -18915,11 +18915,11 @@ Rx = THT
 <net name="S1" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <junction x="203.2" y="162.56"/>
-<pinref part="R19.1" gate="G$1" pin="1"/>
+<pinref part="R14.1" gate="G$1" pin="1"/>
 <pinref part="R15.1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="162.56" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
@@ -19467,9 +19467,9 @@ Rx = THT
 <junction x="15.24" y="132.08"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="172.72" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R14.1" gate="G$1" pin="1"/>
+<pinref part="R19.1" gate="G$1" pin="1"/>
 <pinref part="U$18" gate="G$1" pin="5V"/>
 <junction x="177.8" y="172.72"/>
 </segment>

@@ -5380,8 +5380,8 @@ design rules under a new name.</description>
 <element name="U$5" library="escorna" package="ESCORNA_PEQUE" value="ESCORNABOT" x="15.64685625" y="51.6892" smashed="yes"/>
 <element name="ESC" library="escorna" package="ESCORNA_PEQUE" value="ESCORNABOT" x="27.388559375" y="22.47818125" smashed="yes" rot="MR0"/>
 <element name="XDS" library="xdesig" package="XDESIG_CU_2" value="XDESIG" x="5.86706875" y="71.35756875" smashed="yes"/>
-<element name="R19" library="rcl" package="0204/7" value="10K" x="15.8475" y="44.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.04191875" y="40.784953125" size="1.016" layer="25" font="vector" rot="R90"/>
+<element name="R14" library="rcl" package="0204/7" value="10K" x="15.8475" y="44.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="12.3946" y="43.707" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="12.9699" y="40.1156" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R15" library="rcl" package="0204/7" value="10K" x="15.856734375" y="35.808" smashed="yes" rot="R90">
@@ -5413,7 +5413,7 @@ design rules under a new name.</description>
 </element>
 <element name="H2" library="holes" package="3,0" value="3.0" x="44.2995" y="84.9465" smashed="yes"/>
 <element name="H1" library="holes" package="3,0" value="3.0" x="6.1995" y="78.5965" smashed="yes"/>
-<element name="R19.1" library="rcl" package="R0603" value="10K" x="15.8475" y="44.86" smashed="yes" rot="R90">
+<element name="R14.1" library="rcl" package="R0603" value="10K" x="15.8475" y="44.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.3555" y="43.082" size="1.27" layer="48" rot="R90"/>
 </element>
 <element name="R15.1" library="rcl" package="R0603" value="10K" x="15.857265625" y="35.80310625" smashed="yes" rot="R90">
@@ -5450,11 +5450,11 @@ design rules under a new name.</description>
 </element>
 <element name="F1.1" library="adafruit" package="R1206" value="ERF-RA05060Z" x="44.715715625" y="39.278984375" smashed="yes" rot="R270"/>
 <element name="$1_82_$" library="Escorna_CPU_2_01" package="XDESIG_XDESIG" value="XDESIG_XDESIG21" x="27.45315" y="39.409671875" rot="MR0"/>
-<element name="R14.1" library="rcl" package="R0603" value="10K" x="13.5975" y="44.86" smashed="yes" rot="R90">
+<element name="R19.1" library="rcl" package="R0603" value="10K" x="13.5975" y="44.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.1055" y="43.082" size="1.27" layer="48" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="0204/7" value="10K" x="13.5975" y="44.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.415228125" y="46.642871875" size="1.016" layer="25" font="vector" rot="R270"/>
+<element name="R19" library="rcl" package="0204/7" value="10K" x="13.5975" y="44.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.2054" y="43.343" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="17.2199" y="48.7656" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R8" library="rcl" package="0204/7" value="1K" x="34.24164375" y="39.15" smashed="yes" rot="R270">
@@ -6174,12 +6174,12 @@ design rules under a new name.</description>
 <wire x1="11" y1="53.68" x2="11.02" y2="53.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="A7">
-<contactref element="R14" pad="2"/>
-<contactref element="IC3" pad="22"/>
-<contactref element="R19.1" pad="2"/>
 <contactref element="R19" pad="2"/>
-<wire x1="15.8475" y1="45.71" x2="15.8475" y2="48.67" width="0.8128" layer="1"/>
+<contactref element="IC3" pad="22"/>
 <contactref element="R14.1" pad="2"/>
+<contactref element="R14" pad="2"/>
+<wire x1="15.8475" y1="45.71" x2="15.8475" y2="48.67" width="0.8128" layer="1"/>
+<contactref element="R19.1" pad="2"/>
 <wire x1="16.0074" y1="62.7" x2="14.2" y2="62.7" width="0.4064" layer="1"/>
 <wire x1="15.8475" y1="48.67" x2="13.5975" y2="48.67" width="0.8128" layer="16"/>
 <wire x1="13.5975" y1="45.71" x2="13.5975" y2="48.67" width="0.8128" layer="1"/>
@@ -6259,8 +6259,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="S1">
 <contactref element="R15" pad="2"/>
-<contactref element="R19" pad="1"/>
-<contactref element="R19.1" pad="1"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R14.1" pad="1"/>
 <contactref element="R15.1" pad="2"/>
 <wire x1="15.857265625" y1="36.65310625" x2="15.856734375" y2="39.618" width="0.8128" layer="1"/>
 <wire x1="15.8475" y1="44.01" x2="15.8475" y2="41.05" width="0.8128" layer="1"/>
@@ -6863,13 +6863,13 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="18"/>
 <contactref element="IC3" pad="6"/>
 <contactref element="R7" pad="1"/>
-<contactref element="R14" pad="1"/>
+<contactref element="R19" pad="1"/>
 <contactref element="ICSP" pad="2"/>
 <contactref element="C7" pad="1"/>
 <wire x1="24.4" y1="63.5" x2="24.5926" y2="63.5" width="0.254" layer="1"/>
 <wire x1="14.439" y1="65.9" x2="16.0074" y2="65.9" width="0.3048" layer="1"/>
 <contactref element="J5" pad="4"/>
-<contactref element="R14.1" pad="1"/>
+<contactref element="R19.1" pad="1"/>
 <contactref element="J3" pad="3"/>
 <wire x1="24.5926" y1="65.1" x2="23.204675" y2="65.1" width="0.4064" layer="1"/>
 <wire x1="23.204675" y1="65.1" x2="18.4" y2="65.1" width="0.4064" layer="1"/>

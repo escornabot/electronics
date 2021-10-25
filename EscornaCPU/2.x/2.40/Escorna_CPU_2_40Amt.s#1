@@ -17987,7 +17987,7 @@ Rx = THT
 </text>
 <text x="246.888" y="17.526" size="1.778" layer="97">XDeSIG</text>
 <text x="173.228" y="25.4" size="2.54" layer="97">PseudoSingularis (PSingularis)  by XDeSIG.</text>
-<text x="254" y="7.62" size="2.54" layer="97">0021</text>
+<text x="254" y="7.62" size="2.54" layer="97">002</text>
 <text x="221.234" y="132.334" size="2.54" layer="95">Enabling LEDs, Default on</text>
 <text x="159.766" y="77.978" size="1.778" layer="97" rot="R270">BUZZ on/off</text>
 <text x="172.72" y="121.92" size="2.54" layer="97">A0</text>
