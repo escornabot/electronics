@@ -11,6 +11,8 @@ Arduino Uno, Arduino Nano compatible or ATmega minicore
 
 <img src="oshw_facts.png" width="210" align="left">
 
+<br>
+
 ## To buy boards
 
 Developer doesn't produce boards to get money. [_provider_][provider]
