@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19683,7 +19683,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="H6" library="holes" deviceset="MOUNT-HOLE" device="3.0" value="H3.0"/>
 <part name="ESC2" library="escorna" deviceset="ESCORNABOT" device=""/>
-<part name="U6" library="Itead_IC_110429" deviceset="ASM1117-3.3" device=""/>
+<part name="U6" library="Itead_IC_110429" deviceset="ASM1117-3.3" device="" value="AMS1117-3.3"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="C1.2" library="rcl" deviceset="C-EU" device="C0603K" value="1uF"/>
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
