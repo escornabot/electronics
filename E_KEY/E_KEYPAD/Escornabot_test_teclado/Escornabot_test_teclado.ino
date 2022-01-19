@@ -4,7 +4,7 @@
 */
 
 // A7 Escornabot Singularis (2.12)
-#define input A0 //A7 
+#define input A7 
 
 int sensorValue;
 int sensorValue_old;
