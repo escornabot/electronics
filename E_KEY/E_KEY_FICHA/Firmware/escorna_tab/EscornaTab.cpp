@@ -166,17 +166,18 @@ void EscornaTab::_indicate(uint8_t indication)
         break;
 
     case INDICATION_BUTTON:
-        tone(_cfg.buzzerPin, 3000, 50);
+        tone(_cfg.buzzerPin, 1500, 200);
         break;
 
     case INDICATION_CONNECTED:
-        tone(_cfg.buzzerPin, 4000, 1500);
+        tone(_cfg.buzzerPin, 1800, 1000);
         digitalWrite(_cfg.led1Pin, HIGH);
         break;
 
     case INDICATION_DISCONNECTED:
-        tone(_cfg.buzzerPin, 16, 1000);
+        tone(_cfg.buzzerPin, 1200, 1000);
         digitalWrite(_cfg.led1Pin, LOW);
         break;
     }
 }
+
