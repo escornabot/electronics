@@ -10,6 +10,7 @@ int sensorValue;
 int sensorValue_old;
 
 void setup() {
+//  analogReadResolution(10);
   Serial.begin(9600);
   pinMode(input, INPUT);
   Serial.println ("press a button");
